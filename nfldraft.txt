@@ -1,0 +1,31 @@
+Players Drafted Per Team in the 2022 NFL Draft:
+New York: 18
+Los Angeles: 16
+Baltimore: 11
+Green Bay: 11
+Chicago: 11
+Kansas City: 10
+Minnesota: 10
+New England: 10
+Houston: 9
+Tennessee: 9
+Seattle: 9
+Denver: 9
+Cleveland: 9
+San Francisco: 9
+Dallas: 9
+Detroit: 8
+Buffalo: 8
+Washington: 8
+Atlanta: 8
+Arizona: 8
+Indianapolis: 8
+Tampa Bay: 8
+Pittsburgh: 7
+Jacksonville: 7
+Carolina: 6
+Cincinnati: 6
+Las Vegas: 6
+Philadelphia: 5
+New Orleans: 5
+Miami: 4
