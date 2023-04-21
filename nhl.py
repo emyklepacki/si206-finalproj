@@ -110,12 +110,12 @@ def main():
     draft2022 = getAPI('https://statsapi.web.nhl.com/api/v1/draft/2022')
     # CREATE TABLE IF DOESNT ALREADY EXIST
     # cur.execute("DROP TABLE nhldraft2022")
-    # try:
-    #     cur.execute("SELECT * FROM nhldraft2022")
-    # except:
-    #     create_team_table(cur,conn)
-    # #
-    # add_draft_data(cur, conn, draft2022)
+    try:
+        cur.execute("SELECT * FROM nhldraft2022")
+    except:
+        create_team_table(cur,conn)
+    #
+    add_draft_data(cur, conn, draft2022)
     teamDict = calculate_teams(cur, conn)
     visualizeData(cur, conn, teamDict)
     
