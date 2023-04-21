@@ -3,8 +3,9 @@ import requests
 import matplotlib.pyplot as plt
 import sqlite3
 
-def load_data_25(db):
-    response = requests.get("https://api.collegefootballdata.com/draft/picks?year=2022", headers = {"accept": "application/json", "Authorization":"Bearer 4ThlVHwnLufpOPUo/4CRM9OoQ0ekJEpzEiv2nqKO64J8OntrgEPvBxO/ilSriJ9r"})
+def load_data_25(db, year):
+    # fetch the data from the API
+    response = requests.get("https://api.collegefootballdata.com/draft/picks?year=" + str(year), headers = {"accept": "application/json", "Authorization":"Bearer 4ThlVHwnLufpOPUo/4CRM9OoQ0ekJEpzEiv2nqKO64J8OntrgEPvBxO/ilSriJ9r"})
     data = response.json()
     
     # connect to the database
@@ -43,9 +44,9 @@ def load_data_25(db):
     conn.commit()
     conn.close()
 
-def load_data_full(db):
-    for i in range(11):
-        load_data_25(db)
+def load_data_full(db, num, year):
+    for i in range(num):
+        load_data_25(db, year)
     conn = sqlite3.connect(db)
     cur = conn.cursor()
     teamdata = {}
@@ -61,21 +62,21 @@ def load_data_full(db):
     names = [x[0] for x in teamdata_sort]
     counts = [x[1] for x in teamdata_sort]
     outfile = open('nfldraft.txt', 'w')
-    outfile.write("Players Drafted Per Team in the 2022 NFL Draft:")
+    outfile.write("Players Drafted Per Team in the " + str(year) + " NFL Draft:")
     for i in range(len(names)):
         outfile.write("\n" + names[i] + ": " + str(counts[i]))
     outfile.close()
     return teamdata
 
-def graphdata(datadict):
+def graphdata(datadict, title):
     datadict_sort = sorted(datadict.items(), key=lambda x: x[1], reverse=False)
     names = [x[0] for x in datadict_sort]
     counts = [x[1] for x in datadict_sort]
     plt.barh(names, counts, color=('purple'))
-    plt.title('Players Drafted Per Team in the 2022 NFL Draft:')
+    plt.title(title)
     plt.ylabel('Teams')
     plt.xlabel('Number of Players')
     plt.tight_layout()
     plt.show()
 
-graphdata(load_data_full("sports.db"))
+graphdata(load_data_full("sports.db", 11, 2022), 'Players Drafted Per Team in the 2022 NFL Draft:')
