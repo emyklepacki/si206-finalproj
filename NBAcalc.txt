@@ -1,0 +1,65 @@
+NBA Teams Average Points Per Game for the 2020 Season
+
+The Atlanta Hawks had 10550 points in 94 games in the 2020 season, averaging 112.23 points per game.
+-------------------------
+The Boston Celtics had 8976 points in 80 games in the 2020 season, averaging 112.2 points per game.
+-------------------------
+The Brooklyn Nets had 10119 points in 86 games in the 2020 season, averaging 117.66 points per game.
+-------------------------
+The Charlotte Hornets had 8447 points in 77 games in the 2020 season, averaging 109.7 points per game.
+-------------------------
+The Chicago Bulls had 8406 points in 76 games in the 2020 season, averaging 110.61 points per game.
+-------------------------
+The Cleveland Cavaliers had 7875 points in 76 games in the 2020 season, averaging 103.62 points per game.
+-------------------------
+The Dallas Mavericks had 9205 points in 82 games in the 2020 season, averaging 112.26 points per game.
+-------------------------
+The Denver Nuggets had 9792 points in 85 games in the 2020 season, averaging 115.2 points per game.
+-------------------------
+The Detroit Pistons had 8052 points in 76 games in the 2020 season, averaging 105.95 points per game.
+-------------------------
+The Golden State Warriors had 8732 points in 77 games in the 2020 season, averaging 113.4 points per game.
+-------------------------
+The Houston Rockets had 8289 points in 76 games in the 2020 season, averaging 109.07 points per game.
+-------------------------
+The Indiana Pacers had 8878 points in 77 games in the 2020 season, averaging 115.3 points per game.
+-------------------------
+The LA Clippers had 10621 points in 94 games in the 2020 season, averaging 112.99 points per game.
+-------------------------
+The Los Angeles Lakers had 9019 points in 83 games in the 2020 season, averaging 108.66 points per game.
+-------------------------
+The Memphis Grizzlies had 9423 points in 83 games in the 2020 season, averaging 113.53 points per game.
+-------------------------
+The Miami Heat had 8382 points in 78 games in the 2020 season, averaging 107.46 points per game.
+-------------------------
+The Milwaukee Bucks had 11513 points in 98 games in the 2020 season, averaging 117.48 points per game.
+-------------------------
+The Minnesota Timberwolves had 8411 points in 75 games in the 2020 season, averaging 112.15 points per game.
+-------------------------
+The New Orleans Pelicans had 8492 points in 74 games in the 2020 season, averaging 114.76 points per game.
+-------------------------
+The New York Knicks had 8591 points in 81 games in the 2020 season, averaging 106.06 points per game.
+-------------------------
+The Oklahoma City Thunder had 7797 points in 74 games in the 2020 season, averaging 105.36 points per game.
+-------------------------
+The Orlando Magic had 7946 points in 76 games in the 2020 season, averaging 104.55 points per game.
+-------------------------
+The Philadelphia 76ers had 9677 points in 85 games in the 2020 season, averaging 113.85 points per game.
+-------------------------
+The Phoenix Suns had 11115 points in 98 games in the 2020 season, averaging 113.42 points per game.
+-------------------------
+The Portland Trail Blazers had 9501 points in 82 games in the 2020 season, averaging 115.87 points per game.
+-------------------------
+The Sacramento Kings had 8631 points in 76 games in the 2020 season, averaging 113.57 points per game.
+-------------------------
+The San Antonio Spurs had 8406 points in 76 games in the 2020 season, averaging 110.61 points per game.
+-------------------------
+The Toronto Raptors had 8339 points in 75 games in the 2020 season, averaging 111.19 points per game.
+-------------------------
+The Utah Jazz had 10023 points in 86 games in the 2020 season, averaging 116.55 points per game.
+-------------------------
+The Washington Wizards had 9489 points in 82 games in the 2020 season, averaging 115.72 points per game.
+-------------------------
+The Brooklyn Nets had the highest average points per game at 117.66 points per game
+AND
+The Cleveland Cavaliers had the lowest average points per game at 103.62 points per game

@@ -27,7 +27,7 @@ def teaminfo(idlist):
 	ppergamebyid = []
 	for id in idlist:
 		#join statement to match up id's and names from the two separate NBA tables and get all the data 
-		cur.execute('SELECT NBASeasonStats.id, NBATeams.name, NBASeasonStats.games, NBASeasonStats.points FROM NBASeasonStats JOIN NBATeams on NBASeasonStats.id = NBATeams.id WHERE SeasonStats.id = ?',id)
+		cur.execute('SELECT NBASeasonStats.id, NBATeams.name, NBASeasonStats.games, NBASeasonStats.points FROM NBASeasonStats JOIN NBATeams on NBASeasonStats.id = NBATeams.id WHERE NBASeasonStats.id = ?',id)
 		points = cur.fetchone()
 		t = (points[0],points[1],points[2],points[3])
 		ppergamebyid.append(t)
@@ -35,7 +35,7 @@ def teaminfo(idlist):
 #running the team info function, and saving it as a variable 
 ts = teaminfo(nbaids)
 #opening the file to write calculations to 
-f= open("calc.txt","w")
+f= open("NBAcalc.txt","w")
 #input is the list of tuples with the format team id, team name, games per season, points per season
 #output is nothing, but it writes to a file 
 def calc_pper(pperlist,f):
